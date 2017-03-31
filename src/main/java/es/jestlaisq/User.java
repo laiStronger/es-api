@@ -1,10 +1,3 @@
-/*
- * 文件名：User.java
- * 版权：深圳柚安米科技有限公司版权所有
- * 修改人：laishaoqiang
- * 修改时间：2017年1月13日
- * 修改内容：新增
- */
 package es.jestlaisq;
 
 import io.searchbox.annotations.JestId;
