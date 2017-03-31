@@ -31,13 +31,11 @@ public class CreateDocTest {
 		source.put("content", "jeckaaa");
 		source.put("content11", "jeckaaa1");
 
-		//新增记录
 		Index index = new Index.Builder(source).index(indexStr).type(typeStr).id(id).build();
 		DocumentResult result=client.execute(index);
 		
 		System.out.println(result.getJsonString());
-		
-		//查看记录
+
 		//Search search = new Search.Builder().addIndex("twitter2").addType("tweet2")..id("abc").build();
 		Get get = new Get.Builder(indexStr, id).type(typeStr).build();
 
