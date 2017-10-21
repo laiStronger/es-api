@@ -8,7 +8,7 @@ import io.searchbox.client.config.HttpClientConfig;
  * @FileName JestClient.java
  * @Description:
  *
- * @Date Sep 5, 2016
+ * @Date Sep 5, 2016 
  * @author YangShengJun
  * @version 1.0
  * 
